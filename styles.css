@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+
+#buttons {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bb86fc;
+    height: 250px;
+}
+
+#buttons button {
+ height: 40px;
+ width: 120px;
+ background-color: #5856d6;
+ border: none;
+}
